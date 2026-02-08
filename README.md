@@ -42,12 +42,12 @@ Finally, it returns the stories sorted by **score** in descending order.
 |------|------|----------|-------------|
 | n    | int  | Yes      | Number of best stories to return (n > 0) |
 
-#### Example Request
+### Example Request
 ```http
 GET https://localhost:7161/api/best-stories?n=10
 ```
 
-## Example Response
+### Example Response
 
 ```json
 [
