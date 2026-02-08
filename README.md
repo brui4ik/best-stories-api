@@ -146,6 +146,8 @@ Given more time, the following enhancements would be implemented:
 *   **Swagger / OpenAPI Documentation:** Add Swagger UI and OpenAPI definitions to improve discoverability and allow easier testing.
     
 *   **Distributed Cache (Redis):** Replace IMemoryCache with Redis (IDistributedCache) to support horizontal scaling and shared caching across multiple API instances.
+
+*   **Unit and Integration Tests:** Add unit tests for handlers, validators, and mapping profiles, as well as integration tests for the API endpoints.
     
 *   **Code Quality Tooling (Sonar / Style Rules):** Add SonarQube (or SonarCloud) and enforce consistent coding style using .editorconfig + analyzers.
     
